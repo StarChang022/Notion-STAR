@@ -1,0 +1,97 @@
+/* Text -------------------------- */
+.font20 { font-size: 1.25rem ; }
+.font24 { font-size: 1.5rem ; }
+.font32 { font-size: 2rem ; }
+
+/* Style -------------------------- */
+.border-bottom-10 { border-bottom: 10px solid #000000 ; }
+.border-bottom-8 { border-bottom: 8px solid #000000 ; }
+
+/* Space -------------------------- */
+.w-full { width: 98% ; }
+.max-w-160 { max-width: 10rem !important  ; }
+.max-w-540 { max-width: 33.75rem !important ; }
+.max-w-900 { max-width: 56.25rem !important  ; }
+.max-w-1200 { max-width: 75rem !important  ; }
+.vertical-center { display: flex ; justify-content: center ; align-items: center ; height: 100% ; }
+
+/* Color -------------------------- */
+.background-transparent { background-color: #FFFFFF00 !important ; }
+.background-brown { background-color: #774936 !important ; }
+.background-yellow-light { background-color: #FFFCEE !important ; }
+.border-brown { border-color: #774936 !important ; }
+.text-brown { color: #774936 !important ; }
+.text-brown-light { color: #9D6B53 ; }
+.text-yellow { color: #FCE45D ; }
+.text-yellow-light { color: #FFFCEE ; }
+.text-gray-light { color: #999999 ; }
+
+/* Component -------------------------- */
+/*Heading*/
+.heading { margin-bottom: 4rem ; max-width: 56.25rem ; margin-left: auto ; margin-right: auto ; }
+.heading h2 { margin-bottom: 1rem ; }
+/*Ending*/
+.ending { max-width: 56.25rem ; margin-left: auto ; margin-right: auto ; }
+/*Steps*/
+.steps h5 { font-size: 1.25rem !important ; font-weight: bold !important ; }
+.steps .i-bordered { cursor: auto ; }
+/*Template-Card*/
+.template-card-body { border: 1px solid #774936 ; }
+.template-card-body:hover { box-shadow: var(--cnvs-box-shadow) ; }
+.template-card .wording { padding: 1rem ; }
+.template-card .wording .text { margin-bottom: 1.5rem ; }
+.template-card .wording .text .title h3 { margin-bottom: 0.5rem ; }
+.template-card .wording .text .price { margin-bottom: 1rem ; }
+.template-card .wording .tags span { border: 1px solid #9D6B53 ; padding: 0rem 0.5rem ; background-color: #EDC4B3 ; }
+.template-card .discount { border: 1px dashed #9D6B53 ; padding: 1rem ; }
+.template-card .discount .title { font-weight: bold ; margin-bottom: 0 ; }
+/*Dialogue*/
+/*.dialogue { border: 1px solid #774936 ; border-radius: 0.5rem ; background-color: #FFFCEE ; padding: 1rem ; color: #774936 ; }*/
+.dialogue.quote-bubble { background-color: #FCE45D ; }
+.dialogue.quote-bubble.quote-bubble-right::before { border-left: var(--cnvs-bubble-radius) solid #FCE45D ; border-top: var(--cnvs-bubble-radius) solid #FCE45D ; }
+.dialogue.quote-bubble.quote-bubble-left::before { border-right: var(--cnvs-bubble-radius) solid #FCE45D ; border-top: var(--cnvs-bubble-radius) solid #FCE45D ; }
+.dialogue .title { font-weight: bold ; margin-bottom: 0.5rem ; }
+/*Contact-info*/
+.contact-info { margin-bottom: 1rem ; }
+.contact-info h3 { font-size: 1.25rem ; margin-right: 0.5rem ; margin-bottom: 0.25rem ; }
+.contact-info i { margin-left: 0.5rem ; color: #774936 ; }
+@media ( min-width: 576px ) {
+	.contact-info h3 { display: inline-block ; }
+}
+/*Feature-card*/
+.feature-card { background-color: #774936 ; padding:1.5rem ; border-radius: 0.625rem ; height: 100% ; display: flex ; flex-direction: column ; justify-content: space-between ; }
+.feature-card .text { margin-bottom: 3rem ; }
+.feature-card .text h2 { font-size: 1.25rem ; margin-bottom: 0.5rem ; }
+.feature-card .text h2 ,
+.feature-card .text p { color: #FFFCEE ; }
+/*Frame-List*/
+.frame-list { padding-left: 2rem ; }
+.frame-list li { margin-bottom: 0.5rem ; }
+.frame-list li div { border: 1px solid #9D6B53 ; padding: 0.25rem 0.5rem ; border-radius: 0.25rem ; margin-left: 1rem ; font-size: 1.25rem ; }
+.frame-list li div:hover { box-shadow: var(--cnvs-box-shadow) !important ; }
+/*Code*/
+.code-notion { background-color: #F7F6F3 ; border-radius: 0.25rem ; padding: 1rem ; }
+.code-notion pre { margin-bottom: 0 ; font-size: 1rem ; }
+.code-notion .token { padding-right: 0.1rem ; }
+.code-notion .token.keyword { color: #07A ; }
+.code-notion .token.punctuation { color: #999 ; }
+.code-notion .token.function { color: #DD4A68 ; }
+.code-notion .token.string { color: #690 ; }
+.code-notion .token.boolean { color: #905 ; }
+.code-notion .token.number { color: #905 ; font-weight: 500 ; }
+.code-notion .token.operator { color: #9A6E3A ; }
+.code.mark { font-size: 0.875rem ; background-color: #EDEDEB ; color: #EB5757 ; padding: 0.1rem 0.2rem ; border-radius: 0.2rem ; }
+.code.categories { display: inline-block ; margin-bottom: 0.5rem ; }
+
+
+
+
+
+
+
+
+
+
+
+
+

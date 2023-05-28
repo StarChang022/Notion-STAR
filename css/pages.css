@@ -1,0 +1,9 @@
+/* All -------------------------- */
+p,a,li { font-size: 1.125rem ; }
+p { margin-bottom: 0.725rem ; }
+h1,h2,h3,h4,h5,h6,p,li { color: #774936 ; }
+a { color: #9D6B53 ; }
+
+/* Footer -------------------------- */
+.footer-yellow { background-color: #FCE45D ; }
+
