@@ -58,7 +58,7 @@
 @media ( min-width: 576px ) {
 	.contact-info h3 { display: inline-block ; }
 }
-/*Feature-card*/
+/*Feature-Card*/
 .feature-card { background-color: #774936 ; padding:1.5rem ; border-radius: 0.625rem ; height: 100% ; display: flex ; flex-direction: column ; justify-content: space-between ; }
 .feature-card .text { margin-bottom: 3rem ; }
 .feature-card .text h2 { font-size: 1.25rem ; margin-bottom: 0.5rem ; }
@@ -82,7 +82,15 @@
 .code-notion .token.operator { color: #9A6E3A ; }
 .code.mark { font-size: 0.875rem ; background-color: #EDEDEB ; color: #EB5757 ; padding: 0.1rem 0.2rem ; border-radius: 0.2rem ; }
 .code.categories { display: inline-block ; margin-bottom: 0.5rem ; }
-
+/*Blog-Card*/
+.blog-card h2 { font-size: 1.25rem ; margin-bottom: 0 ; }
+.blog-card:hover { box-shadow: var(--cnvs-box-shadow) ; }
+.blog-card .cover {  }
+.blog-card .content { padding: 1rem ; }
+/*Blog-Detail*/
+.blog-detail h1 { line-height: 2.5rem ; }
+.blog-detail .paragraph { margin-bottom: 3rem ; }
+.blog-detail .step-single { padding: 1rem ; margin-bottom: 2rem ; background-color: #F1F1F1 ; }
 
 
 
